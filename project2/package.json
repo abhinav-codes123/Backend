@@ -1,0 +1,21 @@
+{
+  "name": "backend-project2",
+  "version": "1.0.0",
+  "description": "connecting frontend and backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "frontend",
+    "backend"
+  ],
+  "author": "abhinav",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
