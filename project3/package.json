@@ -1,0 +1,14 @@
+{
+  "name": "backend-app",
+  "version": "1.0.0",
+  "description": "complete backend project, including data modeling(using mongoose) and storing(mongoDB)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "Abhinav Chaudhary",
+  "license": "ISC"
+}
