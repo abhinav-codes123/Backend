@@ -17,5 +17,13 @@ app.use(express.urlencoded({
 app.use(express.static("public"))
 app.use(cookieParser())
 
+// importing user route
+import { router } from './routes/user.routes.js'; 
+
+// route declaration
+app.use('/api/v1/users',router)
+// v1= version 1 of api
+// https://localhost:3000/api/v1/users/register , this will be url for register route
+
 
 export {app} 
